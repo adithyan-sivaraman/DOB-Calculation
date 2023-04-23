@@ -60,7 +60,7 @@ var resultDiv = document.createElement("div");
 resultDiv.id = "result";
 resultDiv.setAttribute("style","margin-top:20px;display:flex;flex-direction:column")
 var span = document.createElement("span");
-span.textContent = "Entered date of birth is : - " + curDt;
+span.textContent = "Entered date of birth is : - " + dobDt;
 var yrField = document.createElement("span");
 yrField.textContent = "year : "+year;
 var mthField = document.createElement("span");
