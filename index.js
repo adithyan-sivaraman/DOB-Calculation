@@ -8,7 +8,6 @@ var input = document.createElement("input");
 input.setAttribute("type","date");
 input.setAttribute("id","dob");
 input.setAttribute("style","width:120px;height:22px");
-input.value = "1989-09-02"
 
 var button = document.createElement("button");
 button.setAttribute("type","button");
